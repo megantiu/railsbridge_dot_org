@@ -11,7 +11,7 @@ module ApplicationHelper
         ["Overview", :learn],
         ["Upcoming Workshops", :events],
         ["FAQ", :learning_faq],
-        ["Keep Learning", :learning_resources],
+        ["Keep Learning", :learning_resources]
       ],
       help: [
         ["Overview", :help],
@@ -26,11 +26,12 @@ module ApplicationHelper
       about: [
         ["Overview", :about],
         ["Team", :team],
-        ["Sponsors ", :sponsors],
+        ["Sponsors", :sponsors],
         ["Chapters", :chapters],
         ["Past Events", :past_events],
         ["Projects", :projects],
-        ["Brand", :brand]
+        ["Brand", :brand],
+        ['Code of Conduct', 'http://bridgefoundry.org/code-of-conduct/']
       ]
     }
   end
